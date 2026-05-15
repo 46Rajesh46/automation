@@ -965,6 +965,7 @@ def process_report(driver, wait, rep, last_main_menu, unit_code, report_from_dat
         tools_link = wait.until(EC.element_to_be_clickable((By.ID, "MainMenuLinksTools")))
         tools_link.click()
         time.sleep(random.uniform(1.5, 2.5))
+        driver.switch_to.default_content()
         print("[OK] Tools toggled after report download")
     except:
         driver.switch_to.default_content()
@@ -985,6 +986,7 @@ def process_unit(driver, wait, unit_code):
         print(f"[RUN] Processing unit: {unit_code} ({location})")
 
         try:
+            driver.switch_to.default_content()
             driver.switch_to.frame("eprmenu")
             loc_link = wait.until(EC.element_to_be_clickable((By.ID, "MainMenuSessionBarLocation")))
             loc_link.click()
