@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# Un-ignore specific server-needed files
+!core.py
+!refresh_zodiac_reports.py
+!move_dashboard_files.py
+!send_zonal_dashboard_email.py
+!post_process_downloads.py
+!set_yesterday_dates.py
+!generate_report.py
+!run_all.bat
+!run_mail.bat
+!register_task.ps1
+!.gitignore
+
+# Un-ignore folders (required so git can recurse into them)
+!fix2_edge_extension/
+!fix2_edge_extension/**
+!doc/
+!doc/CHANGES_LEDGER.md

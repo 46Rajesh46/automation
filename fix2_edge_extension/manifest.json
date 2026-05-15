@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Auto-Accept Downloads",
+  "version": "1.0",
+  "description": "Automatically accepts flagged/dangerous downloads in Edge so automation scripts do not need to click Keep manually.",
+  "permissions": [
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
