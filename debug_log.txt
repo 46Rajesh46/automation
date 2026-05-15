@@ -1,4 +1,4 @@
-===== DEBUG RUN 15-05-2026 13:14:47.73 ===== 
+===== DEBUG RUN 15-05-2026 13:24:43.86 ===== 
 [1] Testing Python imports... 
 pandas OK
 selenium OK
@@ -27,354 +27,177 @@ Exit code: 0
 [RUN] Processing unit: MVB (FINANCE MVB)
 [WARN] Could not open unit selector
 [DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MVB.png
-[DEBUG] Looking for: location='FINANCE MVB' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL VARTHUR ROAD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD\nACCOUNT MMK MHE RP Finance Operations MANIPAL HOSPITAL MUKUNDAPUR\nAccounts and Finance MRJ MHE RP Finance Operations MANIPAL HOSPITAL RANCHI\nADMINISTRATION KMC MHE SSU Groups(Report) KMC HOSPITAL\nADMINISTRATION MBK MHE SSU Groups(Report) MANIPAL HOSPITAL BROADWAY\nADMINISTRATION MBO MHE SSU Groups(Report) MANIPAL HOSPITAL BHUBANESWAR\nADMINISTRATION MBP MHE SSU Groups(Report) MANIPAL HOSPITAL BANER-PUNE\nADMINISTRATION MBW MHE RP Finance Operations MANIPAL CLINIC BROOKFIELD\nADMINISTRATION MBW MHE RP Finance Operations(Report) MANIPAL CLINIC BROOKFIELD\nADMINISTRATION MBW MHE RP Finance Operations MANIPAL CLINIC BROOKFIELD\nADMINISTRATION MBW MHE SSU Groups(Report) MANIPAL CLINIC BROOKFIELD\nADMINISTRATION MCI MHE SSU Groups(Report) MANIPAL CLINIC INDRANAGAR\nADMINISTRATION MDB MHE SSU Groups(Report) MANIPAL HOSPITAL DODDABALLAPUR\nADMINISTRATION MDK MHE SSU Groups(Report) MANIPAL HOSPITAL DHAKURIA\nADMINISTRATION MGD MHE SSU Groups(Report) MANIPAL HOSPITAL GHAZIABAD\nADMINISTRATION MHB MHE SSU Groups(Report) MANIPAL HOSPITAL BANGALORE\nADMINISTRATION MHD MHE SSU Groups(Report) MANIPAL HOSPITAL DWARKA\nADMINISTRATION MHG MHE SSU Groups(Report) MANIPAL HOSPITAL GOA\nADMINISTRATION MHH MHE SSU Groups(Report) MANIPAL HOSPITAL HEBBAL\nADMINISTRATION MHJ MHE SSU Groups(Report) MANIPAL HOSPITAL JAIPUR\nADMINISTRATION MHM MHE SSU Groups(Report) MANIPAL HOSPITAL MILLERS ROAD\nADMINISTRATION MHN MHE SSU Groups(Report) MANIPAL NORTH SIDE HOSPITAL\nADMINISTRATION MHS MHE SSU Groups(Report) MANIPAL HOSPITAL SALEM\nADMINISTRATION MHV MHE SSU Groups(Report) MANIPAL HOSPITAL VIJAYAWADA\nADMINISTRATION MHW MHE SSU Groups(Report) MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE VIEW ACCESS', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE VIEW ACCESS', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'ACCOUNT MMK', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL MUKUNDAPUR']
-  ['', 'Accounts and Finance MRJ', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL RANCHI']
-  ['', 'ADMINISTRATION KMC', 'MHE SSU Groups(Report)', 'KMC HOSPITAL']
 [RUN] Checked next page (attempt 1) for unit selection...
-[RUN] Checked next page (attempt 2) for unit selection...
-[RUN] Checked next page (attempt 3) for unit selection...
-[FAIL] No next page found on attempt 4, stopping.
-[FAIL] Could not select unit MVB, skipping.
+[OK] Selected unit MVB (matched 'ADMINISTRATION MVB') on attempt 2
+[INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
+[RUN] Processing report: Revenue_Service_Level (09/03/2026 to 09/03/2026)
+[OK] Tools clicked
+[OK] Main menu clicked: Finance MIS Reports MOM
+[OK] Sub menu clicked: Revenue(Service Level)
+[OK] Dates entered
+[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[6]/td/table/tbody/tr/td[2]/a
+[OK] File moved to: D:\automation-project - Main\download\Revenue_Service_Level\MVB_09-03-2026_09-03-2026_Revenue_Service_Level.xls
+[OK] Tools toggled after report download
+[RUN] Processing report: Patient_Payable_Date_Wise (09/03/2026 to 09/03/2026)
+[OK] Tools clicked
+[SKIP] Skipping Main menu click (same as previous): Finance MIS Reports MOM
+[OK] Sub menu clicked: Patient Payable (DateWise)
+[OK] Dates entered
+[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[7]/td/table/tbody/tr/td[2]/a
+[OK] Edge download security prompt handled via downloads page.
+[OK] Keep/Keep anyway clicked via UI automation.
+[OK] File moved to: D:\automation-project - Main\download\Patient_Payable_Date_Wise\MVB_09-03-2026_09-03-2026_Patient_Payable_Date_Wise.xls
+[OK] Tools toggled after report download
+[RUN] Processing report: Census_Report (09/03/2026 to 09/03/2026)
+[OK] Tools clicked
+[SKIP] Skipping Main menu click (same as previous): Finance MIS Reports MOM
+[OK] Sub menu clicked: Census Report
+[OK] Dates entered
+[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[10]/td/table/tbody/tr/td[2]/a
+[OK] File moved to: D:\automation-project - Main\download\Census_Report\MVB_09-03-2026_09-03-2026_Census_Report.xls
+[OK] Tools toggled after report download
+[RUN] Processing report: OPD_Foot_Falls_New (09/03/2026 to 09/03/2026)
+[OK] Tools clicked
+[OK] Main menu clicked: General Reports
+[OK] Sub menu clicked: OPD Foot Falls New
+[OK] Dates entered
+[OK] Checkbox 'id="group5"' clicked
+[OK] Export clicked (top-level) using XPath: /html/body/form/table[5]/tbody/tr/td[2]/a
+[OK] File moved to: D:\automation-project - Main\download\OPD_Foot_Falls_New\MVB_09-03-2026_09-03-2026_OPD_Foot_Falls_New.xls
+[OK] Tools toggled after report download
+[RUN] Processing report: HC_Package_Details_Patient_wise (09/03/2026 to 09/03/2026)
+[OK] Tools clicked
+[SKIP] Skipping Main menu click (same as previous): General Reports
+[OK] Sub menu clicked: HC Package Details(Patient wise)
+[OK] Dates entered
+[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[5]/td[2]/table/tbody/tr[6]/td/table/tbody/tr/td[2]/a
+[OK] Edge download security prompt handled via downloads page.
+[OK] Keep/Keep anyway clicked via UI automation.
+[OK] File moved to: D:\automation-project - Main\download\HC_Package_Details_Patient_wise\MVB_09-03-2026_09-03-2026_HC_Package_Details_Patient_wise.xls
+[OK] Tools toggled after report download
+[RUN] Processing report: Emergency_In_Patient_List (09/03/2026 to 09/03/2026)
+[OK] Tools clicked
+[SKIP] Skipping Main menu click (same as previous): General Reports
+[OK] Sub menu clicked: Emergency - In Patient List
+[OK] Dates entered
+[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[8]/td[2]/a
+[OK] File moved to: D:\automation-project - Main\download\Emergency_In_Patient_List\MVB_09-03-2026_09-03-2026_Emergency_In_Patient_List.xls
+[OK] Tools toggled after report download
+[RUN] Processing report: Emergency_Patient_List (09/03/2026 to 09/03/2026)
+[OK] Tools clicked
+[SKIP] Skipping Main menu click (same as previous): General Reports
+[OK] Sub menu clicked: Emergency Patient List
+[OK] Dates entered
+[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[8]/td/table/tbody/tr/td[2]/a
+[OK] File moved to: D:\automation-project - Main\download\Emergency_Patient_List\MVB_09-03-2026_09-03-2026_Emergency_Patient_List.xls
+[OK] Tools toggled after report download
+[RUN] Processing report: Patient_Discharge_Details (09/03/2026 to 09/03/2026)
+[KEEPALIVE] Session ping sent.
+[OK] Tools clicked
+[OK] Main menu clicked: IP Admin Reports
+[OK] Sub menu clicked: Patient Discharge Details
+[OK] Dates entered
+[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[6]/td/table/tbody/tr[7]/td/table/tbody/tr/td[2]/a
+[OK] File moved to: D:\automation-project - Main\download\Patient_Discharge_Details\MVB_09-03-2026_09-03-2026_Patient_Discharge_Details.xls
+[OK] Tools toggled after report download
+[RUN] Processing report: Sales_Day_Book_Excel (09/03/2026 to 09/03/2026)
+[OK] Tools clicked
+[OK] Main menu clicked: Billing Reports
+[OK] Sub menu clicked: Sales Day Book (Excel)
+[OK] Dates entered
+[OK] Checkbox 'id="NewFICORevenue"' clicked
+[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[9]/td[2]/a
+[OK] File moved to: D:\automation-project - Main\download\Sales_Day_Book_Excel\MVB_09-03-2026_09-03-2026_Sales_Day_Book_Excel.xls
+[OK] Tools toggled after report download
+[INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
+[OK] No missing reports for unit MVB.
+[INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
 [RUN] Processing unit: MSB (FINANCE MSB)
 [WARN] Could not open unit selector
 [DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MSB.png
-[DEBUG] Looking for: location='FINANCE MSB' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL SARJAPUR ROAD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSB, skipping.
 [RUN] Processing unit: MHS (FINANCE MHS)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MHS.png
-[DEBUG] Looking for: location='FINANCE MHS' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL SALEM'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MHS, skipping.
 [RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MBB.png
-[DEBUG] Looking for: location='ADMINISTRATION MHW MBB' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC BUDIGERE-BANGALORE'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBB, skipping.
 [RUN] Processing unit: MBW (ADMINISTRATION MBW)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MBW.png
-[DEBUG] Looking for: location='ADMINISTRATION MBW' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC BROOKFIELD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBW, skipping.
 [RUN] Processing unit: MIW (ADMINISTRATION MIW)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MIW.png
-[DEBUG] Looking for: location='ADMINISTRATION MIW' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC ITPL'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MIW, skipping.
 [RUN] Processing unit: MSC (FINANCE MSC)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MSC.png
-[DEBUG] Looking for: location='FINANCE MSC' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL SARJAPUR CLINIC'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSC, skipping.
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
-[RUN] Download round 2/4 for units: MBB, MBW, MHS, MIW, MSB, MSC, MVB
+[RUN] Download round 2/4 for units: MBB, MBW, MHS, MIW, MSB, MSC
 [RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MBB.png
-[DEBUG] Looking for: location='ADMINISTRATION MHW MBB' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC BUDIGERE-BANGALORE'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBB, skipping.
 [RUN] Processing unit: MBW (ADMINISTRATION MBW)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MBW.png
-[DEBUG] Looking for: location='ADMINISTRATION MBW' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC BROOKFIELD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBW, skipping.
 [RUN] Processing unit: MHS (FINANCE MHS)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MHS.png
-[DEBUG] Looking for: location='FINANCE MHS' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL SALEM'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MHS, skipping.
 [RUN] Processing unit: MIW (ADMINISTRATION MIW)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MIW.png
-[DEBUG] Looking for: location='ADMINISTRATION MIW' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC ITPL'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MIW, skipping.
 [RUN] Processing unit: MSB (FINANCE MSB)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MSB.png
-[DEBUG] Looking for: location='FINANCE MSB' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL SARJAPUR ROAD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSB, skipping.
 [RUN] Processing unit: MSC (FINANCE MSC)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MSC.png
-[DEBUG] Looking for: location='FINANCE MSC' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL SARJAPUR CLINIC'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSC, skipping.
-[RUN] Processing unit: MVB (FINANCE MVB)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MVB.png
-[DEBUG] Looking for: location='FINANCE MVB' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL VARTHUR ROAD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MVB, skipping.
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
-[RUN] Download round 3/4 for units: MBB, MBW, MHS, MIW, MSB, MSC, MVB
+[RUN] Download round 3/4 for units: MBB, MBW, MHS, MIW, MSB, MSC
 [RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MBB.png
-[DEBUG] Looking for: location='ADMINISTRATION MHW MBB' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC BUDIGERE-BANGALORE'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBB, skipping.
 [RUN] Processing unit: MBW (ADMINISTRATION MBW)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MBW.png
-[DEBUG] Looking for: location='ADMINISTRATION MBW' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC BROOKFIELD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBW, skipping.
 [RUN] Processing unit: MHS (FINANCE MHS)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MHS.png
-[DEBUG] Looking for: location='FINANCE MHS' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL SALEM'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MHS, skipping.
 [RUN] Processing unit: MIW (ADMINISTRATION MIW)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MIW.png
-[DEBUG] Looking for: location='ADMINISTRATION MIW' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC ITPL'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MIW, skipping.
 [RUN] Processing unit: MSB (FINANCE MSB)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MSB.png
-[DEBUG] Looking for: location='FINANCE MSB' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL SARJAPUR ROAD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSB, skipping.
 [RUN] Processing unit: MSC (FINANCE MSC)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MSC.png
-[DEBUG] Looking for: location='FINANCE MSC' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL SARJAPUR CLINIC'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSC, skipping.
-[RUN] Processing unit: MVB (FINANCE MVB)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MVB.png
-[DEBUG] Looking for: location='FINANCE MVB' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL VARTHUR ROAD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MVB, skipping.
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
-[RUN] Download round 4/4 for units: MBB, MBW, MHS, MIW, MSB, MSC, MVB
+[RUN] Download round 4/4 for units: MBB, MBW, MHS, MIW, MSB, MSC
 [RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MBB.png
-[DEBUG] Looking for: location='ADMINISTRATION MHW MBB' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC BUDIGERE-BANGALORE'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBB, skipping.
 [RUN] Processing unit: MBW (ADMINISTRATION MBW)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MBW.png
-[DEBUG] Looking for: location='ADMINISTRATION MBW' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC BROOKFIELD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBW, skipping.
 [RUN] Processing unit: MHS (FINANCE MHS)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MHS.png
-[DEBUG] Looking for: location='FINANCE MHS' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL SALEM'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MHS, skipping.
 [RUN] Processing unit: MIW (ADMINISTRATION MIW)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MIW.png
-[DEBUG] Looking for: location='ADMINISTRATION MIW' | sec_group='MHE RP Finance Operations' | hospital='MANIPAL CLINIC ITPL'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MIW, skipping.
 [RUN] Processing unit: MSB (FINANCE MSB)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MSB.png
-[DEBUG] Looking for: location='FINANCE MSB' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL SARJAPUR ROAD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSB, skipping.
 [RUN] Processing unit: MSC (FINANCE MSC)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MSC.png
-[DEBUG] Looking for: location='FINANCE MSC' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL SARJAPUR CLINIC'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSC, skipping.
-[RUN] Processing unit: MVB (FINANCE MVB)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MVB.png
-[DEBUG] Looking for: location='FINANCE MVB' | sec_group='MHE RP Finance Operations(Report)' | hospital='MANIPAL HOSPITAL VARTHUR ROAD'
-[DEBUG] Table rows on page (showing up to 5):
-  ['Location Security Group Hospital\nFINANCE MHW MHE RP Finance Operations MANIPAL HOSPITAL WHITEFIELD\nFINANCE MHY MHE RP Finance Operations MANIPAL HOSPITAL YELAHANKA\nFINANCE MKB MHE RP Finance Operations MANIPAL HOSPITAL KANAKAPURA ROAD\nFINANCE MKP MHE RP Finance Operations MANIPAL HOSPITAL KHARADI-PUNE\nFINANCE MMH MHE RP Finance Operations DR MALATHI MANIPAL HOSPITAL BANGALORE\nFINANCE MMW MHE RP Finance Operations MANIPAL HOSPITAL EM BYPASS\nFINANCE MMY MHE RP Finance Operations MANIPAL HOSPITAL MYSURU\nFINANCE MPD MHE RP Finance Operations MANIPAL HOSPITAL GURUGRAM\nFINANCE MPP MHE RP Finance Operations MANIPAL HOSPITAL PATIALA\nFINANCE MRW MHE RP Finance Operations MANIPAL HOSPITAL RANGAPANI\nFINANCE MSB MHE RP Finance Operations MANIPAL HOSPITAL SARJAPUR ROAD\nFINANCE MSK MHE RP Finance Operations MANIPAL HOSPITAL SALT LAKE-KOLKATA\nFINANCE MSW MHE RP Finance Operations MANIPAL HOSPITAL SILIGURI\nFINANCE MVB MHE RP Finance Operations MANIPAL HOSPITAL VARTHUR ROAD\nFINANCE MYB MHE RP Finance Operations MANIPAL HOSPITAL YESHWANTHPUR\nGROUND FLOOR OP PCC COUNTER 1 MHW MHE VIEW ACCESS MANIPAL HOSPITAL WHITEFIELD', '', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHW', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL WHITEFIELD']
-  ['', 'FINANCE MHY', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL YELAHANKA']
-  ['', 'FINANCE MKB', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KANAKAPURA ROAD']
-  ['', 'FINANCE MKP', 'MHE RP Finance Operations', 'MANIPAL HOSPITAL KHARADI-PUNE']
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MVB, skipping.
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
