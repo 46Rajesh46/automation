@@ -1,269 +1,212 @@
-[2026-05-15 13:59:43] [WAKE] Screensaver disabled via SystemParametersInfoW before automation run.
-[2026-05-15 13:59:43] [WAKE] Keep-awake enabled with keypress + mouse click wake signals before core run.
-[2026-05-15 14:04:34] [UNIT MSB] Downloaded reports: Revenue_Service_Level (01/05/2026 to 01/05/2026); Patient_Payable_Date_Wise (01/05/2026 to 01/05/2026); Census_Report (01/05/2026 to 01/05/2026); OPD_Foot_Falls_New (01/05/2026 to 01/05/2026); HC_Package_Details_Patient_wise (01/05/2026 to 01/05/2026); Emergency_In_Patient_List (01/05/2026 to 01/05/2026); Emergency_Patient_List (01/05/2026 to 01/05/2026); Patient_Discharge_Details (01/05/2026 to 01/05/2026); Sales_Day_Book_Excel (01/05/2026 to 01/05/2026)
-[2026-05-15 14:04:34] [UNIT MSB] All expected reports downloaded.
-[2026-05-15 14:04:35] [UNIT MHS] Skipped: could not select unit on portal.
-[2026-05-15 14:04:35] [UNIT MBB] Skipped: could not select unit on portal.
-[2026-05-15 14:04:35] [UNIT MBW] Skipped: could not select unit on portal.
-[2026-05-15 14:04:36] [UNIT MIW] Skipped: could not select unit on portal.
-[2026-05-15 14:04:36] [UNIT MSC] Skipped: could not select unit on portal.
-[2026-05-15 14:04:36] [DOWNLOAD] Missing reports remain after round 1: MBB:3, MBW:3, MHS:9, MIW:3, MSC:3
-[2026-05-15 14:04:36] [UNIT MBB] Skipped: could not select unit on portal.
-[2026-05-15 14:04:36] [UNIT MBW] Skipped: could not select unit on portal.
-[2026-05-15 14:04:37] [UNIT MHS] Skipped: could not select unit on portal.
-[2026-05-15 14:04:37] [UNIT MIW] Skipped: could not select unit on portal.
-[2026-05-15 14:04:37] [UNIT MSC] Skipped: could not select unit on portal.
-[2026-05-15 14:04:37] [DOWNLOAD] Missing reports remain after round 2: MBB:3, MBW:3, MHS:9, MIW:3, MSC:3
-[2026-05-15 14:04:38] [UNIT MBB] Skipped: could not select unit on portal.
-[2026-05-15 14:04:38] [UNIT MBW] Skipped: could not select unit on portal.
-[2026-05-15 14:04:38] [UNIT MHS] Skipped: could not select unit on portal.
-[2026-05-15 14:04:39] [UNIT MIW] Skipped: could not select unit on portal.
-[2026-05-15 14:04:39] [UNIT MSC] Skipped: could not select unit on portal.
-[2026-05-15 14:04:39] [DOWNLOAD] Missing reports remain after round 3: MBB:3, MBW:3, MHS:9, MIW:3, MSC:3
-[2026-05-15 14:04:39] [UNIT MBB] Skipped: could not select unit on portal.
-[2026-05-15 14:04:40] [UNIT MBW] Skipped: could not select unit on portal.
-[2026-05-15 14:04:40] [UNIT MHS] Skipped: could not select unit on portal.
-[2026-05-15 14:04:40] [UNIT MIW] Skipped: could not select unit on portal.
-[2026-05-15 14:04:40] [UNIT MSC] Skipped: could not select unit on portal.
-[2026-05-15 14:04:40] [DOWNLOAD] Missing reports remain after round 4: MBB:3, MBW:3, MHS:9, MIW:3, MSC:3
-[2026-05-15 14:04:40] [WARN] Download rounds exhausted; some reports still missing after maximum retries.
-[2026-05-15 14:04:43] [POST] Starting post-process for 9 report(s) marked Download=TRUE.
-[2026-05-15 14:04:43] [POST] Report 'Revenue_Service_Level': expected units=MBB,MBW,MHS,MIW,MSB,MSC
-[2026-05-15 14:04:43] [POST] Report 'Revenue_Service_Level' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:04:43] [POST] Report 'Revenue_Service_Level' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:04:43] [POST] Report 'Revenue_Service_Level' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:04:43] [POST] Report 'Revenue_Service_Level' Unit 'MIW': found 1 file(s)
-[2026-05-15 14:04:43] [POST] Report 'Revenue_Service_Level' Unit 'MIW': rejected file (rows=3 < 5)
-[2026-05-15 14:04:43] [POST] Report 'Revenue_Service_Level' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:04:43] [POST] Report 'Revenue_Service_Level' Unit 'MSB': found 1 file(s)
-[2026-05-15 14:04:51] [POST] Report 'Revenue_Service_Level' Unit 'MSB': moved to dashboard
-[2026-05-15 14:04:51] [POST] Report 'Revenue_Service_Level' Unit 'MSB': SUCCESS (valid file count=1)
-[2026-05-15 14:04:51] [POST] Report 'Revenue_Service_Level' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:04:51] [POST] Report 'Revenue_Service_Level': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:04:51] [POST] Report 'Patient_Payable_Date_Wise': expected units=MHS,MSB
-[2026-05-15 14:04:51] [POST] Report 'Patient_Payable_Date_Wise' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:04:51] [POST] Report 'Patient_Payable_Date_Wise' Unit 'MSB': found 1 file(s)
-[2026-05-15 14:04:52] [POST] Report 'Patient_Payable_Date_Wise' Unit 'MSB': moved to dashboard
-[2026-05-15 14:04:52] [POST] Report 'Patient_Payable_Date_Wise' Unit 'MSB': SUCCESS (valid file count=1)
-[2026-05-15 14:04:52] [POST] Report 'Patient_Payable_Date_Wise': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:04:52] [POST] Report 'Census_Report': expected units=MHS,MSB
-[2026-05-15 14:04:52] [POST] Report 'Census_Report' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:04:52] [POST] Report 'Census_Report' Unit 'MSB': found 1 file(s)
-[2026-05-15 14:04:53] [POST] Report 'Census_Report' Unit 'MSB': moved to dashboard
-[2026-05-15 14:04:53] [POST] Report 'Census_Report' Unit 'MSB': SUCCESS (valid file count=1)
-[2026-05-15 14:04:53] [POST] Report 'Census_Report': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:04:53] [POST] Report 'OPD_Foot_Falls_New': expected units=MBB,MBW,MHS,MIW,MSB,MSC
-[2026-05-15 14:04:53] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:04:53] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:04:53] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': found 1 file(s)
-[2026-05-15 14:04:53] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': rejected file (rows=4 < 5)
-[2026-05-15 14:04:53] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': FAILED (Less than 5 rows)
-[2026-05-15 14:04:53] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': found 2 file(s)
-[2026-05-15 14:04:53] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:04:53] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:04:53] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:04:53] [POST] Report 'OPD_Foot_Falls_New' Unit 'MSB': found 1 file(s)
-[2026-05-15 14:04:59] [POST] Report 'OPD_Foot_Falls_New' Unit 'MSB': moved to dashboard
-[2026-05-15 14:04:59] [POST] Report 'OPD_Foot_Falls_New' Unit 'MSB': SUCCESS (valid file count=1)
-[2026-05-15 14:04:59] [POST] Report 'OPD_Foot_Falls_New' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:04:59] [POST] Report 'OPD_Foot_Falls_New': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:04:59] [POST] Report 'HC_Package_Details_Patient_wise': expected units=MHS,MSB
-[2026-05-15 14:04:59] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': found 1 file(s)
-[2026-05-15 14:04:59] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=3 < 5)
-[2026-05-15 14:04:59] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': FAILED (Less than 5 rows)
-[2026-05-15 14:04:59] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MSB': found 1 file(s)
-[2026-05-15 14:05:00] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MSB': moved to dashboard
-[2026-05-15 14:05:00] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MSB': SUCCESS (valid file count=1)
-[2026-05-15 14:05:00] [POST] Report 'HC_Package_Details_Patient_wise': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:00] [POST] Report 'Emergency_In_Patient_List': expected units=MHS,MSB
-[2026-05-15 14:05:00] [POST] Report 'Emergency_In_Patient_List' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:00] [POST] Report 'Emergency_In_Patient_List' Unit 'MSB': found 1 file(s)
-[2026-05-15 14:05:03] [POST] Report 'Emergency_In_Patient_List' Unit 'MSB': moved to dashboard
-[2026-05-15 14:05:03] [POST] Report 'Emergency_In_Patient_List' Unit 'MSB': SUCCESS (valid file count=1)
-[2026-05-15 14:05:03] [POST] Report 'Emergency_In_Patient_List': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:03] [POST] Report 'Emergency_Patient_List': expected units=MHS,MSB
-[2026-05-15 14:05:03] [POST] Report 'Emergency_Patient_List' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:03] [POST] Report 'Emergency_Patient_List' Unit 'MSB': found 1 file(s)
-[2026-05-15 14:05:06] [POST] Report 'Emergency_Patient_List' Unit 'MSB': moved to dashboard
-[2026-05-15 14:05:06] [POST] Report 'Emergency_Patient_List' Unit 'MSB': SUCCESS (valid file count=1)
-[2026-05-15 14:05:06] [POST] Report 'Emergency_Patient_List': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:06] [POST] Report 'Patient_Discharge_Details': expected units=MHS,MSB
-[2026-05-15 14:05:06] [POST] Report 'Patient_Discharge_Details' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:06] [POST] Report 'Patient_Discharge_Details' Unit 'MSB': found 1 file(s)
-[2026-05-15 14:05:09] [POST] Report 'Patient_Discharge_Details' Unit 'MSB': moved to dashboard
-[2026-05-15 14:05:09] [POST] Report 'Patient_Discharge_Details' Unit 'MSB': SUCCESS (valid file count=1)
-[2026-05-15 14:05:09] [POST] Report 'Patient_Discharge_Details': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:09] [POST] Report 'Sales_Day_Book_Excel': expected units=MBB,MBW,MHS,MIW,MSB,MSC
-[2026-05-15 14:05:09] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:05:09] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:05:09] [POST] Report 'Sales_Day_Book_Excel' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:09] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': found 1 file(s)
-[2026-05-15 14:05:09] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:05:09] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:05:09] [POST] Report 'Sales_Day_Book_Excel' Unit 'MSB': found 1 file(s)
-[2026-05-15 14:05:13] [POST] Report 'Sales_Day_Book_Excel' Unit 'MSB': moved to dashboard
-[2026-05-15 14:05:13] [POST] Report 'Sales_Day_Book_Excel' Unit 'MSB': SUCCESS (valid file count=1)
-[2026-05-15 14:05:13] [POST] Report 'Sales_Day_Book_Excel' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:05:13] [POST] Report 'Sales_Day_Book_Excel': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:05:13] [POST] Completed post-process: reports=9, units=30, unit_success=9, unit_failed=21, remaining_failed_units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:13] [WARN] Post-process convert/validate/move-to-dashboard verification failed on attempt 1: pending spreadsheets in output folder=8
-[2026-05-15 14:05:19] [POST] Starting post-process for 9 report(s) marked Download=TRUE.
-[2026-05-15 14:05:19] [POST] Report 'Revenue_Service_Level': expected units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:19] [POST] Report 'Revenue_Service_Level' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Revenue_Service_Level' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Revenue_Service_Level' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Revenue_Service_Level' Unit 'MIW': found 1 file(s)
-[2026-05-15 14:05:19] [POST] Report 'Revenue_Service_Level' Unit 'MIW': rejected file (rows=3 < 5)
-[2026-05-15 14:05:19] [POST] Report 'Revenue_Service_Level' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:05:19] [POST] Report 'Revenue_Service_Level' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Revenue_Service_Level': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:05:19] [POST] Report 'Patient_Payable_Date_Wise': expected units=MHS
-[2026-05-15 14:05:19] [POST] Report 'Patient_Payable_Date_Wise' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Patient_Payable_Date_Wise': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:19] [POST] Report 'Census_Report': expected units=MHS
-[2026-05-15 14:05:19] [POST] Report 'Census_Report' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Census_Report': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New': expected units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': found 1 file(s)
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': rejected file (rows=4 < 5)
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': FAILED (Less than 5 rows)
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': found 2 file(s)
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'OPD_Foot_Falls_New': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:05:19] [POST] Report 'HC_Package_Details_Patient_wise': expected units=MHS
-[2026-05-15 14:05:19] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': found 1 file(s)
-[2026-05-15 14:05:19] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=3 < 5)
-[2026-05-15 14:05:19] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': FAILED (Less than 5 rows)
-[2026-05-15 14:05:19] [POST] Report 'HC_Package_Details_Patient_wise': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:19] [POST] Report 'Emergency_In_Patient_List': expected units=MHS
-[2026-05-15 14:05:19] [POST] Report 'Emergency_In_Patient_List' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Emergency_In_Patient_List': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:19] [POST] Report 'Emergency_Patient_List': expected units=MHS
-[2026-05-15 14:05:19] [POST] Report 'Emergency_Patient_List' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Emergency_Patient_List': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:19] [POST] Report 'Patient_Discharge_Details': expected units=MHS
-[2026-05-15 14:05:19] [POST] Report 'Patient_Discharge_Details' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Patient_Discharge_Details': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:19] [POST] Report 'Sales_Day_Book_Excel': expected units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:19] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Sales_Day_Book_Excel' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': found 1 file(s)
-[2026-05-15 14:05:19] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:05:19] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:05:19] [POST] Report 'Sales_Day_Book_Excel' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:05:19] [POST] Report 'Sales_Day_Book_Excel': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:05:19] [POST] Completed post-process: reports=9, units=21, unit_success=0, unit_failed=21, remaining_failed_units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:20] [WARN] Post-process convert/validate/move-to-dashboard verification failed on attempt 2: pending spreadsheets in output folder=8
-[2026-05-15 14:05:26] [POST] Starting post-process for 9 report(s) marked Download=TRUE.
-[2026-05-15 14:05:26] [POST] Report 'Revenue_Service_Level': expected units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:26] [POST] Report 'Revenue_Service_Level' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Revenue_Service_Level' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Revenue_Service_Level' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Revenue_Service_Level' Unit 'MIW': found 1 file(s)
-[2026-05-15 14:05:26] [POST] Report 'Revenue_Service_Level' Unit 'MIW': rejected file (rows=3 < 5)
-[2026-05-15 14:05:26] [POST] Report 'Revenue_Service_Level' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:05:26] [POST] Report 'Revenue_Service_Level' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Revenue_Service_Level': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:05:26] [POST] Report 'Patient_Payable_Date_Wise': expected units=MHS
-[2026-05-15 14:05:26] [POST] Report 'Patient_Payable_Date_Wise' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Patient_Payable_Date_Wise': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:26] [POST] Report 'Census_Report': expected units=MHS
-[2026-05-15 14:05:26] [POST] Report 'Census_Report' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Census_Report': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New': expected units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': found 1 file(s)
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': rejected file (rows=4 < 5)
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': FAILED (Less than 5 rows)
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': found 2 file(s)
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'OPD_Foot_Falls_New': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:05:26] [POST] Report 'HC_Package_Details_Patient_wise': expected units=MHS
-[2026-05-15 14:05:26] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': found 1 file(s)
-[2026-05-15 14:05:26] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=3 < 5)
-[2026-05-15 14:05:26] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': FAILED (Less than 5 rows)
-[2026-05-15 14:05:26] [POST] Report 'HC_Package_Details_Patient_wise': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:26] [POST] Report 'Emergency_In_Patient_List': expected units=MHS
-[2026-05-15 14:05:26] [POST] Report 'Emergency_In_Patient_List' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Emergency_In_Patient_List': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:26] [POST] Report 'Emergency_Patient_List': expected units=MHS
-[2026-05-15 14:05:26] [POST] Report 'Emergency_Patient_List' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Emergency_Patient_List': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:26] [POST] Report 'Patient_Discharge_Details': expected units=MHS
-[2026-05-15 14:05:26] [POST] Report 'Patient_Discharge_Details' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Patient_Discharge_Details': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:26] [POST] Report 'Sales_Day_Book_Excel': expected units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:26] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Sales_Day_Book_Excel' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': found 1 file(s)
-[2026-05-15 14:05:26] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:05:26] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:05:26] [POST] Report 'Sales_Day_Book_Excel' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:05:26] [POST] Report 'Sales_Day_Book_Excel': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:05:26] [POST] Completed post-process: reports=9, units=21, unit_success=0, unit_failed=21, remaining_failed_units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:26] [WARN] Post-process convert/validate/move-to-dashboard verification failed on attempt 3: pending spreadsheets in output folder=8
-[2026-05-15 14:05:33] [POST] Starting post-process for 9 report(s) marked Download=TRUE.
-[2026-05-15 14:05:33] [POST] Report 'Revenue_Service_Level': expected units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:33] [POST] Report 'Revenue_Service_Level' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Revenue_Service_Level' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Revenue_Service_Level' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Revenue_Service_Level' Unit 'MIW': found 1 file(s)
-[2026-05-15 14:05:33] [POST] Report 'Revenue_Service_Level' Unit 'MIW': rejected file (rows=3 < 5)
-[2026-05-15 14:05:33] [POST] Report 'Revenue_Service_Level' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:05:33] [POST] Report 'Revenue_Service_Level' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Revenue_Service_Level': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:05:33] [POST] Report 'Patient_Payable_Date_Wise': expected units=MHS
-[2026-05-15 14:05:33] [POST] Report 'Patient_Payable_Date_Wise' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Patient_Payable_Date_Wise': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:33] [POST] Report 'Census_Report': expected units=MHS
-[2026-05-15 14:05:33] [POST] Report 'Census_Report' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Census_Report': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New': expected units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': found 1 file(s)
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': rejected file (rows=4 < 5)
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': FAILED (Less than 5 rows)
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': found 2 file(s)
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'OPD_Foot_Falls_New': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:05:33] [POST] Report 'HC_Package_Details_Patient_wise': expected units=MHS
-[2026-05-15 14:05:33] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': found 1 file(s)
-[2026-05-15 14:05:33] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=3 < 5)
-[2026-05-15 14:05:33] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': FAILED (Less than 5 rows)
-[2026-05-15 14:05:33] [POST] Report 'HC_Package_Details_Patient_wise': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:33] [POST] Report 'Emergency_In_Patient_List': expected units=MHS
-[2026-05-15 14:05:33] [POST] Report 'Emergency_In_Patient_List' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Emergency_In_Patient_List': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:33] [POST] Report 'Emergency_Patient_List': expected units=MHS
-[2026-05-15 14:05:33] [POST] Report 'Emergency_Patient_List' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Emergency_Patient_List': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:33] [POST] Report 'Patient_Discharge_Details': expected units=MHS
-[2026-05-15 14:05:33] [POST] Report 'Patient_Discharge_Details' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Patient_Discharge_Details': PARTIAL/FAILED (failed units=MHS)
-[2026-05-15 14:05:33] [POST] Report 'Sales_Day_Book_Excel': expected units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:33] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBB': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBW': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Sales_Day_Book_Excel' Unit 'MHS': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': found 1 file(s)
-[2026-05-15 14:05:33] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': rejected file (rows=4 < 5)
-[2026-05-15 14:05:33] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': FAILED (Less than 5 rows)
-[2026-05-15 14:05:33] [POST] Report 'Sales_Day_Book_Excel' Unit 'MSC': FAILED (File missing)
-[2026-05-15 14:05:33] [POST] Report 'Sales_Day_Book_Excel': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
-[2026-05-15 14:05:33] [POST] Completed post-process: reports=9, units=21, unit_success=0, unit_failed=21, remaining_failed_units=MBB,MBW,MHS,MIW,MSC
-[2026-05-15 14:05:33] [WARN] Post-process convert/validate/move-to-dashboard verification failed on attempt 4: pending spreadsheets in output folder=8
-[2026-05-15 14:05:33] [WARN] Skipping post-run checks due to step failure after retries.
+[2026-05-15 14:24:26] [WAKE] Screensaver disabled via SystemParametersInfoW before automation run.
+[2026-05-15 14:24:27] [WAKE] Keep-awake enabled with keypress + mouse click wake signals before core run.
+[2026-05-15 14:29:17] [UNIT MHS] Downloaded reports: Revenue_Service_Level (01/05/2026 to 01/05/2026); Patient_Payable_Date_Wise (01/05/2026 to 01/05/2026); Census_Report (01/05/2026 to 01/05/2026); OPD_Foot_Falls_New (01/05/2026 to 01/05/2026); HC_Package_Details_Patient_wise (01/05/2026 to 01/05/2026); Emergency_In_Patient_List (01/05/2026 to 01/05/2026); Emergency_Patient_List (01/05/2026 to 01/05/2026); Patient_Discharge_Details (01/05/2026 to 01/05/2026); Sales_Day_Book_Excel (01/05/2026 to 01/05/2026)
+[2026-05-15 14:29:17] [UNIT MHS] All expected reports downloaded.
+[2026-05-15 14:29:48] [UNIT MBB] Skipped: could not select unit on portal.
+[2026-05-15 14:30:18] [UNIT MBW] Skipped: could not select unit on portal.
+[2026-05-15 14:30:49] [UNIT MIW] Skipped: could not select unit on portal.
+[2026-05-15 14:31:20] [UNIT MSC] Skipped: could not select unit on portal.
+[2026-05-15 14:31:20] [DOWNLOAD] Missing reports remain after round 1: MBB:3, MBW:3, MIW:3, MSC:3
+[2026-05-15 14:31:50] [UNIT MBB] Skipped: could not select unit on portal.
+[2026-05-15 14:32:21] [UNIT MBW] Skipped: could not select unit on portal.
+[2026-05-15 14:32:51] [UNIT MIW] Skipped: could not select unit on portal.
+[2026-05-15 14:33:22] [UNIT MSC] Skipped: could not select unit on portal.
+[2026-05-15 14:33:22] [DOWNLOAD] Missing reports remain after round 2: MBB:3, MBW:3, MIW:3, MSC:3
+[2026-05-15 14:33:52] [UNIT MBB] Skipped: could not select unit on portal.
+[2026-05-15 14:34:23] [UNIT MBW] Skipped: could not select unit on portal.
+[2026-05-15 14:34:54] [UNIT MIW] Skipped: could not select unit on portal.
+[2026-05-15 14:35:24] [UNIT MSC] Skipped: could not select unit on portal.
+[2026-05-15 14:35:24] [DOWNLOAD] Missing reports remain after round 3: MBB:3, MBW:3, MIW:3, MSC:3
+[2026-05-15 14:35:54] [UNIT MBB] Skipped: could not select unit on portal.
+[2026-05-15 14:36:25] [UNIT MBW] Skipped: could not select unit on portal.
+[2026-05-15 14:36:55] [UNIT MIW] Skipped: could not select unit on portal.
+[2026-05-15 14:37:26] [UNIT MSC] Skipped: could not select unit on portal.
+[2026-05-15 14:37:26] [DOWNLOAD] Missing reports remain after round 4: MBB:3, MBW:3, MIW:3, MSC:3
+[2026-05-15 14:37:26] [WARN] Download rounds exhausted; some reports still missing after maximum retries.
+[2026-05-15 14:37:29] [POST] Starting post-process for 9 report(s) marked Download=TRUE.
+[2026-05-15 14:37:29] [POST] Report 'Revenue_Service_Level': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:37:29] [POST] Report 'Revenue_Service_Level' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:37:29] [POST] Report 'Revenue_Service_Level' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:37:29] [POST] Report 'Revenue_Service_Level' Unit 'MHS': found 1 file(s)
+[2026-05-15 14:37:36] [POST] Report 'Revenue_Service_Level' Unit 'MHS': moved to dashboard
+[2026-05-15 14:37:36] [POST] Report 'Revenue_Service_Level' Unit 'MHS': SUCCESS (valid file count=1)
+[2026-05-15 14:37:36] [POST] Report 'Revenue_Service_Level' Unit 'MIW': found 1 file(s)
+[2026-05-15 14:37:36] [POST] Report 'Revenue_Service_Level' Unit 'MIW': rejected file (rows=3 < 5)
+[2026-05-15 14:37:36] [POST] Report 'Revenue_Service_Level' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:37:36] [POST] Report 'Revenue_Service_Level' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:37:36] [POST] Report 'Revenue_Service_Level': PARTIAL/FAILED (failed units=MBB,MBW,MIW,MSC)
+[2026-05-15 14:37:36] [POST] Report 'Patient_Payable_Date_Wise': expected units=MHS
+[2026-05-15 14:37:36] [POST] Report 'Patient_Payable_Date_Wise' Unit 'MHS': found 1 file(s)
+[2026-05-15 14:37:44] [POST] Report 'Patient_Payable_Date_Wise' Unit 'MHS': moved to dashboard
+[2026-05-15 14:37:44] [POST] Report 'Patient_Payable_Date_Wise' Unit 'MHS': SUCCESS (valid file count=1)
+[2026-05-15 14:37:44] [POST] Report 'Patient_Payable_Date_Wise': SUCCESS (all expected units processed)
+[2026-05-15 14:37:44] [POST] Report 'Census_Report': expected units=MHS
+[2026-05-15 14:37:44] [POST] Report 'Census_Report' Unit 'MHS': found 1 file(s)
+[2026-05-15 14:37:44] [POST] Report 'Census_Report' Unit 'MHS': moved to dashboard
+[2026-05-15 14:37:44] [POST] Report 'Census_Report' Unit 'MHS': SUCCESS (valid file count=1)
+[2026-05-15 14:37:44] [POST] Report 'Census_Report': SUCCESS (all expected units processed)
+[2026-05-15 14:37:44] [POST] Report 'OPD_Foot_Falls_New': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:37:44] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:37:44] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:37:44] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': found 2 file(s)
+[2026-05-15 14:37:49] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': moved to dashboard
+[2026-05-15 14:37:49] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': rejected file (rows=4 < 5)
+[2026-05-15 14:37:49] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': SUCCESS (valid file count=1)
+[2026-05-15 14:37:49] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': found 2 file(s)
+[2026-05-15 14:37:49] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:37:49] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:37:49] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:37:49] [POST] Report 'OPD_Foot_Falls_New' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:37:49] [POST] Report 'OPD_Foot_Falls_New': PARTIAL/FAILED (failed units=MBB,MBW,MIW,MSC)
+[2026-05-15 14:37:49] [POST] Report 'HC_Package_Details_Patient_wise': expected units=MHS
+[2026-05-15 14:37:49] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': found 2 file(s)
+[2026-05-15 14:37:50] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=4 < 5)
+[2026-05-15 14:37:50] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=3 < 5)
+[2026-05-15 14:37:50] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': FAILED (Less than 5 rows)
+[2026-05-15 14:37:50] [POST] Report 'HC_Package_Details_Patient_wise': PARTIAL/FAILED (failed units=MHS)
+[2026-05-15 14:37:50] [POST] Report 'Emergency_In_Patient_List': expected units=MHS
+[2026-05-15 14:37:50] [POST] Report 'Emergency_In_Patient_List' Unit 'MHS': found 1 file(s)
+[2026-05-15 14:37:53] [POST] Report 'Emergency_In_Patient_List' Unit 'MHS': moved to dashboard
+[2026-05-15 14:37:53] [POST] Report 'Emergency_In_Patient_List' Unit 'MHS': SUCCESS (valid file count=1)
+[2026-05-15 14:37:53] [POST] Report 'Emergency_In_Patient_List': SUCCESS (all expected units processed)
+[2026-05-15 14:37:53] [POST] Report 'Emergency_Patient_List': expected units=MHS
+[2026-05-15 14:37:53] [POST] Report 'Emergency_Patient_List' Unit 'MHS': found 1 file(s)
+[2026-05-15 14:37:54] [POST] Report 'Emergency_Patient_List' Unit 'MHS': moved to dashboard
+[2026-05-15 14:37:54] [POST] Report 'Emergency_Patient_List' Unit 'MHS': SUCCESS (valid file count=1)
+[2026-05-15 14:37:54] [POST] Report 'Emergency_Patient_List': SUCCESS (all expected units processed)
+[2026-05-15 14:37:54] [POST] Report 'Patient_Discharge_Details': expected units=MHS
+[2026-05-15 14:37:54] [POST] Report 'Patient_Discharge_Details' Unit 'MHS': found 1 file(s)
+[2026-05-15 14:37:57] [POST] Report 'Patient_Discharge_Details' Unit 'MHS': moved to dashboard
+[2026-05-15 14:37:57] [POST] Report 'Patient_Discharge_Details' Unit 'MHS': SUCCESS (valid file count=1)
+[2026-05-15 14:37:57] [POST] Report 'Patient_Discharge_Details': SUCCESS (all expected units processed)
+[2026-05-15 14:37:57] [POST] Report 'Sales_Day_Book_Excel': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:37:57] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:37:57] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:37:57] [POST] Report 'Sales_Day_Book_Excel' Unit 'MHS': found 1 file(s)
+[2026-05-15 14:38:00] [POST] Report 'Sales_Day_Book_Excel' Unit 'MHS': moved to dashboard
+[2026-05-15 14:38:00] [POST] Report 'Sales_Day_Book_Excel' Unit 'MHS': SUCCESS (valid file count=1)
+[2026-05-15 14:38:00] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': found 1 file(s)
+[2026-05-15 14:38:00] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:38:00] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:38:00] [POST] Report 'Sales_Day_Book_Excel' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:38:00] [POST] Report 'Sales_Day_Book_Excel': PARTIAL/FAILED (failed units=MBB,MBW,MIW,MSC)
+[2026-05-15 14:38:00] [POST] Completed post-process: reports=9, units=21, unit_success=8, unit_failed=13, remaining_failed_units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:00] [WARN] Post-process convert/validate/move-to-dashboard verification failed on attempt 1: pending spreadsheets in output folder=9
+[2026-05-15 14:38:07] [POST] Starting post-process for 4 report(s) marked Download=TRUE.
+[2026-05-15 14:38:07] [POST] Report 'Revenue_Service_Level': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:07] [POST] Report 'Revenue_Service_Level' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:38:07] [POST] Report 'Revenue_Service_Level' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:38:07] [POST] Report 'Revenue_Service_Level' Unit 'MHS': FAILED (File missing)
+[2026-05-15 14:38:07] [POST] Report 'Revenue_Service_Level' Unit 'MIW': found 1 file(s)
+[2026-05-15 14:38:07] [POST] Report 'Revenue_Service_Level' Unit 'MIW': rejected file (rows=3 < 5)
+[2026-05-15 14:38:07] [POST] Report 'Revenue_Service_Level' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:38:07] [POST] Report 'Revenue_Service_Level' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:38:07] [POST] Report 'Revenue_Service_Level': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': found 1 file(s)
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': rejected file (rows=4 < 5)
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': FAILED (Less than 5 rows)
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': found 2 file(s)
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:38:07] [POST] Report 'OPD_Foot_Falls_New': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
+[2026-05-15 14:38:07] [POST] Report 'HC_Package_Details_Patient_wise': expected units=MHS
+[2026-05-15 14:38:07] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': found 2 file(s)
+[2026-05-15 14:38:07] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=4 < 5)
+[2026-05-15 14:38:07] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=3 < 5)
+[2026-05-15 14:38:07] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': FAILED (Less than 5 rows)
+[2026-05-15 14:38:07] [POST] Report 'HC_Package_Details_Patient_wise': PARTIAL/FAILED (failed units=MHS)
+[2026-05-15 14:38:07] [POST] Report 'Sales_Day_Book_Excel': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:07] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:38:07] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:38:07] [POST] Report 'Sales_Day_Book_Excel' Unit 'MHS': FAILED (File missing)
+[2026-05-15 14:38:07] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': found 1 file(s)
+[2026-05-15 14:38:07] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:38:07] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:38:07] [POST] Report 'Sales_Day_Book_Excel' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:38:07] [POST] Report 'Sales_Day_Book_Excel': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
+[2026-05-15 14:38:07] [POST] Completed post-process: reports=4, units=16, unit_success=0, unit_failed=16, remaining_failed_units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:07] [WARN] Post-process convert/validate/move-to-dashboard verification failed on attempt 2: pending spreadsheets in output folder=9
+[2026-05-15 14:38:14] [POST] Starting post-process for 4 report(s) marked Download=TRUE.
+[2026-05-15 14:38:14] [POST] Report 'Revenue_Service_Level': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:14] [POST] Report 'Revenue_Service_Level' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:38:14] [POST] Report 'Revenue_Service_Level' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:38:14] [POST] Report 'Revenue_Service_Level' Unit 'MHS': FAILED (File missing)
+[2026-05-15 14:38:14] [POST] Report 'Revenue_Service_Level' Unit 'MIW': found 1 file(s)
+[2026-05-15 14:38:14] [POST] Report 'Revenue_Service_Level' Unit 'MIW': rejected file (rows=3 < 5)
+[2026-05-15 14:38:14] [POST] Report 'Revenue_Service_Level' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:38:14] [POST] Report 'Revenue_Service_Level' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:38:14] [POST] Report 'Revenue_Service_Level': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': found 1 file(s)
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': rejected file (rows=4 < 5)
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': FAILED (Less than 5 rows)
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': found 2 file(s)
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:38:14] [POST] Report 'OPD_Foot_Falls_New': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
+[2026-05-15 14:38:14] [POST] Report 'HC_Package_Details_Patient_wise': expected units=MHS
+[2026-05-15 14:38:14] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': found 2 file(s)
+[2026-05-15 14:38:14] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=4 < 5)
+[2026-05-15 14:38:14] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=3 < 5)
+[2026-05-15 14:38:14] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': FAILED (Less than 5 rows)
+[2026-05-15 14:38:14] [POST] Report 'HC_Package_Details_Patient_wise': PARTIAL/FAILED (failed units=MHS)
+[2026-05-15 14:38:14] [POST] Report 'Sales_Day_Book_Excel': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:14] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:38:14] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:38:14] [POST] Report 'Sales_Day_Book_Excel' Unit 'MHS': FAILED (File missing)
+[2026-05-15 14:38:14] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': found 1 file(s)
+[2026-05-15 14:38:14] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:38:14] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:38:14] [POST] Report 'Sales_Day_Book_Excel' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:38:14] [POST] Report 'Sales_Day_Book_Excel': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
+[2026-05-15 14:38:14] [POST] Completed post-process: reports=4, units=16, unit_success=0, unit_failed=16, remaining_failed_units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:14] [WARN] Post-process convert/validate/move-to-dashboard verification failed on attempt 3: pending spreadsheets in output folder=9
+[2026-05-15 14:38:20] [POST] Starting post-process for 4 report(s) marked Download=TRUE.
+[2026-05-15 14:38:20] [POST] Report 'Revenue_Service_Level': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:20] [POST] Report 'Revenue_Service_Level' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:38:20] [POST] Report 'Revenue_Service_Level' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:38:20] [POST] Report 'Revenue_Service_Level' Unit 'MHS': FAILED (File missing)
+[2026-05-15 14:38:20] [POST] Report 'Revenue_Service_Level' Unit 'MIW': found 1 file(s)
+[2026-05-15 14:38:21] [POST] Report 'Revenue_Service_Level' Unit 'MIW': rejected file (rows=3 < 5)
+[2026-05-15 14:38:21] [POST] Report 'Revenue_Service_Level' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:38:21] [POST] Report 'Revenue_Service_Level' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:38:21] [POST] Report 'Revenue_Service_Level': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': found 1 file(s)
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': rejected file (rows=4 < 5)
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New' Unit 'MHS': FAILED (Less than 5 rows)
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': found 2 file(s)
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:38:21] [POST] Report 'OPD_Foot_Falls_New': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
+[2026-05-15 14:38:21] [POST] Report 'HC_Package_Details_Patient_wise': expected units=MHS
+[2026-05-15 14:38:21] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': found 2 file(s)
+[2026-05-15 14:38:21] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=4 < 5)
+[2026-05-15 14:38:21] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': rejected file (rows=3 < 5)
+[2026-05-15 14:38:21] [POST] Report 'HC_Package_Details_Patient_wise' Unit 'MHS': FAILED (Less than 5 rows)
+[2026-05-15 14:38:21] [POST] Report 'HC_Package_Details_Patient_wise': PARTIAL/FAILED (failed units=MHS)
+[2026-05-15 14:38:21] [POST] Report 'Sales_Day_Book_Excel': expected units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:21] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBB': FAILED (File missing)
+[2026-05-15 14:38:21] [POST] Report 'Sales_Day_Book_Excel' Unit 'MBW': FAILED (File missing)
+[2026-05-15 14:38:21] [POST] Report 'Sales_Day_Book_Excel' Unit 'MHS': FAILED (File missing)
+[2026-05-15 14:38:21] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': found 1 file(s)
+[2026-05-15 14:38:21] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': rejected file (rows=4 < 5)
+[2026-05-15 14:38:21] [POST] Report 'Sales_Day_Book_Excel' Unit 'MIW': FAILED (Less than 5 rows)
+[2026-05-15 14:38:21] [POST] Report 'Sales_Day_Book_Excel' Unit 'MSC': FAILED (File missing)
+[2026-05-15 14:38:21] [POST] Report 'Sales_Day_Book_Excel': PARTIAL/FAILED (failed units=MBB,MBW,MHS,MIW,MSC)
+[2026-05-15 14:38:21] [POST] Completed post-process: reports=4, units=16, unit_success=0, unit_failed=16, remaining_failed_units=MBB,MBW,MHS,MIW,MSC
+[2026-05-15 14:38:21] [WARN] Post-process convert/validate/move-to-dashboard verification failed on attempt 4: pending spreadsheets in output folder=9
+[2026-05-15 14:38:21] [WARN] Skipping post-run checks due to step failure after retries.
