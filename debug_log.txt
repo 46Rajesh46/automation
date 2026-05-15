@@ -1,4 +1,4 @@
-===== DEBUG RUN 15-05-2026 12:52:10.44 ===== 
+===== DEBUG RUN 15-05-2026 13:00:33.61 ===== 
 [1] Testing Python imports... 
 pandas OK
 selenium OK
@@ -10,129 +10,23 @@ xlrd OK
  
 [2] Running set_yesterday_dates.py... 
 [SCHEDULE] Setting run dates to yesterday: 14-05-2026
-Traceback (most recent call last):
-  File "D:\automation-project - Main\set_yesterday_dates.py", line 52, in <module>
-    set_yesterday_dates()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "D:\automation-project - Main\set_yesterday_dates.py", line 48, in set_yesterday_dates
-    wb.save(CONTROL_PATH)
-    ~~~~~~~^^^^^^^^^^^^^^
-  File "D:\automation-project - Main\venv\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
-    save_workbook(self, filename)
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "D:\automation-project - Main\venv\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
-    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
-  File "C:\Users\finance.mhw\AppData\Local\Programs\Python\Python314\Lib\zipfile\__init__.py", line 1453, in __init__
-    self.fp = io.open(file, filemode)
-              ~~~~~~~^^^^^^^^^^^^^^^^
-PermissionError: [Errno 13] Permission denied: 'D:\\automation-project - Main\\control.xlsx'
-Exit code: 1 
+[SCHEDULE] control.xlsx updated — From/To Date=14-05-2026, Download=TRUE for all reports.
+Exit code: 0 
  
 [3] Running core.py... 
-Traceback (most recent call last):
-  File "D:\automation-project - Main\post_process_downloads.py", line 330, in <module>
-    with pd.ExcelWriter(control_path, engine="openpyxl", mode="a", if_sheet_exists="replace") as writer:
-         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 62, in __init__
-    super().__init__(
-    ~~~~~~~~~~~~~~~~^
-        path,
-        ^^^^^
-    ...<3 lines>...
-        engine_kwargs=engine_kwargs,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\excel\_base.py", line 1281, in __init__
-    self._handles = get_handle(
-                    ~~~~~~~~~~^
-        path, mode, storage_options=storage_options, is_text=False
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\common.py", line 939, in get_handle
-    handle = open(handle, ioargs.mode)
-PermissionError: [Errno 13] Permission denied: 'control.xlsx'
-Traceback (most recent call last):
-  File "D:\automation-project - Main\post_process_downloads.py", line 330, in <module>
-    with pd.ExcelWriter(control_path, engine="openpyxl", mode="a", if_sheet_exists="replace") as writer:
-         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 62, in __init__
-    super().__init__(
-    ~~~~~~~~~~~~~~~~^
-        path,
-        ^^^^^
-    ...<3 lines>...
-        engine_kwargs=engine_kwargs,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\excel\_base.py", line 1281, in __init__
-    self._handles = get_handle(
-                    ~~~~~~~~~~^
-        path, mode, storage_options=storage_options, is_text=False
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\common.py", line 939, in get_handle
-    handle = open(handle, ioargs.mode)
-PermissionError: [Errno 13] Permission denied: 'control.xlsx'
-Traceback (most recent call last):
-  File "D:\automation-project - Main\post_process_downloads.py", line 330, in <module>
-    with pd.ExcelWriter(control_path, engine="openpyxl", mode="a", if_sheet_exists="replace") as writer:
-         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 62, in __init__
-    super().__init__(
-    ~~~~~~~~~~~~~~~~^
-        path,
-        ^^^^^
-    ...<3 lines>...
-        engine_kwargs=engine_kwargs,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\excel\_base.py", line 1281, in __init__
-    self._handles = get_handle(
-                    ~~~~~~~~~~^
-        path, mode, storage_options=storage_options, is_text=False
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\common.py", line 939, in get_handle
-    handle = open(handle, ioargs.mode)
-PermissionError: [Errno 13] Permission denied: 'control.xlsx'
-Traceback (most recent call last):
-  File "D:\automation-project - Main\post_process_downloads.py", line 330, in <module>
-    with pd.ExcelWriter(control_path, engine="openpyxl", mode="a", if_sheet_exists="replace") as writer:
-         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 62, in __init__
-    super().__init__(
-    ~~~~~~~~~~~~~~~~^
-        path,
-        ^^^^^
-    ...<3 lines>...
-        engine_kwargs=engine_kwargs,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\excel\_base.py", line 1281, in __init__
-    self._handles = get_handle(
-                    ~~~~~~~~~~^
-        path, mode, storage_options=storage_options, is_text=False
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "D:\automation-project - Main\venv\Lib\site-packages\pandas\io\common.py", line 939, in get_handle
-    handle = open(handle, ioargs.mode)
-PermissionError: [Errno 13] Permission denied: 'control.xlsx'
+[OK] Post-processing completed. Units, Status, and Failure Reason updated correctly.
+[OK] Post-processing completed. Units, Status, and Failure Reason updated correctly.
+[OK] Post-processing completed. Units, Status, and Failure Reason updated correctly.
+[OK] Post-processing completed. Units, Status, and Failure Reason updated correctly.
 [OK] Screensaver disabled for this session.
 [OK] Wake/keep-awake signal sent (keypress + mouse click).
-[OK] Config loaded: {'a (key)': 'B (value)', 'url': 'http://172.16.242.101/trakcare/web/csp/logon.csp?LANGID=1', 'username': 'mhbb01272', 'password': 'Manipal@410', 'output folder': 'D:\\automation-project - Main\\download', 'units': 'MBB,MBW,MHS,MIW,MSB,MSC,MVB'}
+[OK] Config loaded: {'a (key)': 'B (value)', 'url': 'http://172.16.242.101/trakcare/web/csp/logon.csp?LANGID=1', 'username': 'mhbb01272', 'password': 'Manipal@410', 'output folder': 'D:\\automation-project - Main\\download', 'units': 'MBB,MBW,MHS,MIW,MSB,MSC,MVB', 'email to': 'manger@manipal.com', 'email cc': 'admin@manipal.com'}
 [OK] Main-sheet report control detected (9 rows). Unit columns: MHW, MVB, MSB, MHS, MBB, MBW, MIW, MSC
 [OK] Logged in once for entire run
 [RUN] Download round 1/4 for units: MVB, MSB, MHS, MBB, MBW, MIW, MSC
 [RUN] Processing unit: MVB (FINANCE MVB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [RUN] Checked next page (attempt 1) for unit selection...
 [RUN] Checked next page (attempt 2) for unit selection...
 [RUN] Checked next page (attempt 3) for unit selection...
@@ -140,26 +34,32 @@ PermissionError: [Errno 13] Permission denied: 'control.xlsx'
 [FAIL] Could not select unit MVB, skipping.
 [RUN] Processing unit: MSB (FINANCE MSB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSB, skipping.
 [RUN] Processing unit: MHS (FINANCE MHS)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MHS, skipping.
 [RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBB, skipping.
 [RUN] Processing unit: MBW (ADMINISTRATION MBW)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBW, skipping.
 [RUN] Processing unit: MIW (ADMINISTRATION MIW)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MIW, skipping.
 [RUN] Processing unit: MSC (FINANCE MSC)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSC, skipping.
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
@@ -168,30 +68,37 @@ PermissionError: [Errno 13] Permission denied: 'control.xlsx'
 [RUN] Download round 2/4 for units: MBB, MBW, MHS, MIW, MSB, MSC, MVB
 [RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBB, skipping.
 [RUN] Processing unit: MBW (ADMINISTRATION MBW)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBW, skipping.
 [RUN] Processing unit: MHS (FINANCE MHS)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MHS, skipping.
 [RUN] Processing unit: MIW (ADMINISTRATION MIW)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MIW, skipping.
 [RUN] Processing unit: MSB (FINANCE MSB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSB, skipping.
 [RUN] Processing unit: MSC (FINANCE MSC)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSC, skipping.
 [RUN] Processing unit: MVB (FINANCE MVB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MVB, skipping.
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
@@ -200,30 +107,37 @@ PermissionError: [Errno 13] Permission denied: 'control.xlsx'
 [RUN] Download round 3/4 for units: MBB, MBW, MHS, MIW, MSB, MSC, MVB
 [RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBB, skipping.
 [RUN] Processing unit: MBW (ADMINISTRATION MBW)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBW, skipping.
 [RUN] Processing unit: MHS (FINANCE MHS)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MHS, skipping.
 [RUN] Processing unit: MIW (ADMINISTRATION MIW)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MIW, skipping.
 [RUN] Processing unit: MSB (FINANCE MSB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSB, skipping.
 [RUN] Processing unit: MSC (FINANCE MSC)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSC, skipping.
 [RUN] Processing unit: MVB (FINANCE MVB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MVB, skipping.
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
@@ -232,30 +146,37 @@ PermissionError: [Errno 13] Permission denied: 'control.xlsx'
 [RUN] Download round 4/4 for units: MBB, MBW, MHS, MIW, MSB, MSC, MVB
 [RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBB, skipping.
 [RUN] Processing unit: MBW (ADMINISTRATION MBW)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MBW, skipping.
 [RUN] Processing unit: MHS (FINANCE MHS)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MHS, skipping.
 [RUN] Processing unit: MIW (ADMINISTRATION MIW)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MIW, skipping.
 [RUN] Processing unit: MSB (FINANCE MSB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSB, skipping.
 [RUN] Processing unit: MSC (FINANCE MSC)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MSC, skipping.
 [RUN] Processing unit: MVB (FINANCE MVB)
 [WARN] Could not open unit selector
+[DEBUG] Screenshot failed: name 'OUTPUT_DIR' is not defined
 [FAIL] No next page found on attempt 1, stopping.
 [FAIL] Could not select unit MVB, skipping.
 [INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (09/03/2026 to 09/03/2026)
