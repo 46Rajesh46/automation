@@ -1000,31 +1000,20 @@ def process_unit(driver, wait, unit_code):
                 print(f"[DEBUG] Screenshot failed: {_e}")
 
         unit_clicked = False
-        print(f"[DEBUG] Looking for: location='{location}' | sec_group='{sec_group}' | hospital='{hospital}'")
 
-        for attempt in range(4):
+        for attempt in range(8):
             try:
                 rows = driver.find_elements(By.TAG_NAME, "tr")
-                table_rows_found = []
                 for tr in rows:
                     tds = tr.find_elements(By.TAG_NAME, "td")
-                    if len(tds) < 4:
+                    if len(tds) < 2:
                         continue
-                    row_vals = [tds[i].text.strip() for i in range(min(5, len(tds)))]
-                    table_rows_found.append(row_vals)
-                    if (
-                        tds[1].text.strip() == location
-                        and tds[2].text.strip() == sec_group
-                        and tds[3].text.strip() == hospital
-                    ):
+                    loc_text = tds[1].text.strip()
+                    if unit_code in loc_text:
                         tds[1].click()
                         unit_clicked = True
-                        print(f"[OK] Selected unit {unit_code} on attempt {attempt+1}")
+                        print(f"[OK] Selected unit {unit_code} (matched '{loc_text}') on attempt {attempt+1}")
                         break
-                if attempt == 0 and not unit_clicked:
-                    print(f"[DEBUG] Table rows on page (showing up to 5):")
-                    for r in table_rows_found[:5]:
-                        print(f"  {r}")
 
                 if unit_clicked:
                     break
