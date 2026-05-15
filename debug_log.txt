@@ -1,178 +1,25 @@
-===== DEBUG RUN 15-05-2026 14:24:24.38 ===== 
-[1] Testing Python imports... 
-pandas OK
-selenium OK
-win32com OK
-openpyxl OK
-plotly OK
-pywinauto OK
-xlrd OK
- 
-[2] Running set_yesterday_dates.py... 
-[SCHEDULE] Setting run dates to yesterday: 14-05-2026
-[SCHEDULE] control.xlsx updated — From/To Date=14-05-2026, Download=TRUE for all reports.
-Exit code: 0 
- 
-[3] Running core.py... 
-[OK] Post-processing completed. Units, Status, and Failure Reason updated correctly.
-[OK] Post-processing completed. Units, Status, and Failure Reason updated correctly.
-[OK] Post-processing completed. Units, Status, and Failure Reason updated correctly.
-[OK] Post-processing completed. Units, Status, and Failure Reason updated correctly.
-[OK] Screensaver disabled for this session.
-[OK] Wake/keep-awake signal sent (keypress + mouse click).
-[OK] Config loaded: {'a (key)': 'B (value)', 'url': 'http://172.16.242.101/trakcare/web/csp/logon.csp?LANGID=1', 'username': 'mhbb01272', 'password': 'Manipal@410', 'output folder': 'D:\\automation-project - Main\\download', 'units': 'MBB,MBW,MHS,MIW,MSC', 'email to': 'manger@manipal.com', 'email cc': 'admin@manipal.com'}
-[OK] Main-sheet report control detected (9 rows). Unit columns: MHW, MVB, MSB, MHS, MBB, MBW, MIW, MSC
-[OK] Logged in once for entire run
-[RUN] Download round 1/4 for units: MHS, MBB, MBW, MIW, MSC
-[RUN] Processing unit: MHS (FINANCE MHS)
-[WARN] Could not open unit selector
-[DEBUG] Screenshot saved: D:\automation-project - Main\debug_screenshot_MHS.png
-[OK] Selected unit MHS (matched 'ADMINISTRATION MHS') on attempt 1
-[INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (01/05/2026 to 01/05/2026)
-[RUN] Processing report: Revenue_Service_Level (01/05/2026 to 01/05/2026)
-[OK] Tools clicked
-[OK] Main menu clicked: Finance MIS Reports MOM
-[OK] Sub menu clicked: Revenue(Service Level)
-[OK] Dates entered
-[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[6]/td/table/tbody/tr/td[2]/a
-[OK] File moved to: D:\automation-project - Main\download\Revenue_Service_Level\MHS_01-05-2026_01-05-2026_Revenue_Service_Level.xls
-[OK] Tools toggled after report download
-[RUN] Processing report: Patient_Payable_Date_Wise (01/05/2026 to 01/05/2026)
-[OK] Tools clicked
-[SKIP] Skipping Main menu click (same as previous): Finance MIS Reports MOM
-[OK] Sub menu clicked: Patient Payable (DateWise)
-[OK] Dates entered
-[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[7]/td/table/tbody/tr/td[2]/a
-[OK] Edge download security prompt handled via downloads page.
-[OK] Keep/Keep anyway clicked via UI automation.
-[OK] File moved to: D:\automation-project - Main\download\Patient_Payable_Date_Wise\MHS_01-05-2026_01-05-2026_Patient_Payable_Date_Wise.xls
-[OK] Tools toggled after report download
-[RUN] Processing report: Census_Report (01/05/2026 to 01/05/2026)
-[OK] Tools clicked
-[SKIP] Skipping Main menu click (same as previous): Finance MIS Reports MOM
-[OK] Sub menu clicked: Census Report
-[OK] Dates entered
-[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[10]/td/table/tbody/tr/td[2]/a
-[OK] File moved to: D:\automation-project - Main\download\Census_Report\MHS_01-05-2026_01-05-2026_Census_Report.xls
-[OK] Tools toggled after report download
-[RUN] Processing report: OPD_Foot_Falls_New (01/05/2026 to 01/05/2026)
-[OK] Tools clicked
-[OK] Main menu clicked: General Reports
-[OK] Sub menu clicked: OPD Foot Falls New
-[OK] Dates entered
-[OK] Checkbox 'id="group5"' clicked
-[OK] Export clicked (top-level) using XPath: /html/body/form/table[5]/tbody/tr/td[2]/a
-[OK] File moved to: D:\automation-project - Main\download\OPD_Foot_Falls_New\MHS_01-05-2026_01-05-2026_OPD_Foot_Falls_New.xls
-[OK] Tools toggled after report download
-[RUN] Processing report: HC_Package_Details_Patient_wise (01/05/2026 to 01/05/2026)
-[OK] Tools clicked
-[SKIP] Skipping Main menu click (same as previous): General Reports
-[OK] Sub menu clicked: HC Package Details(Patient wise)
-[OK] Dates entered
-[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[5]/td[2]/table/tbody/tr[6]/td/table/tbody/tr/td[2]/a
-[OK] Edge download security prompt handled via downloads page.
-[OK] Keep/Keep anyway clicked via UI automation.
-[OK] File moved to: D:\automation-project - Main\download\HC_Package_Details_Patient_wise\MHS_01-05-2026_01-05-2026_HC_Package_Details_Patient_wise.xls
-[OK] Tools toggled after report download
-[RUN] Processing report: Emergency_In_Patient_List (01/05/2026 to 01/05/2026)
-[OK] Tools clicked
-[SKIP] Skipping Main menu click (same as previous): General Reports
-[OK] Sub menu clicked: Emergency - In Patient List
-[OK] Dates entered
-[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[8]/td[2]/a
-[OK] File moved to: D:\automation-project - Main\download\Emergency_In_Patient_List\MHS_01-05-2026_01-05-2026_Emergency_In_Patient_List.xls
-[OK] Tools toggled after report download
-[RUN] Processing report: Emergency_Patient_List (01/05/2026 to 01/05/2026)
-[OK] Tools clicked
-[SKIP] Skipping Main menu click (same as previous): General Reports
-[OK] Sub menu clicked: Emergency Patient List
-[OK] Dates entered
-[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[8]/td/table/tbody/tr/td[2]/a
-[OK] File moved to: D:\automation-project - Main\download\Emergency_Patient_List\MHS_01-05-2026_01-05-2026_Emergency_Patient_List.xls
-[OK] Tools toggled after report download
-[RUN] Processing report: Patient_Discharge_Details (01/05/2026 to 01/05/2026)
-[OK] Tools clicked
-[OK] Main menu clicked: IP Admin Reports
-[OK] Sub menu clicked: Patient Discharge Details
-[OK] Dates entered
-[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[6]/td/table/tbody/tr[7]/td/table/tbody/tr/td[2]/a
-[OK] File moved to: D:\automation-project - Main\download\Patient_Discharge_Details\MHS_01-05-2026_01-05-2026_Patient_Discharge_Details.xls
-[OK] Tools toggled after report download
-[RUN] Processing report: Sales_Day_Book_Excel (01/05/2026 to 01/05/2026)
-[OK] Tools clicked
-[OK] Main menu clicked: Billing Reports
-[OK] Sub menu clicked: Sales Day Book (Excel)
-[OK] Dates entered
-[OK] Checkbox 'id="NewFICORevenue"' clicked
-[OK] Export clicked (top-level) using XPath: /html/body/form/table/tbody/tr[9]/td[2]/a
-[OK] File moved to: D:\automation-project - Main\download\Sales_Day_Book_Excel\MHS_01-05-2026_01-05-2026_Sales_Day_Book_Excel.xls
-[OK] Tools toggled after report download
-[INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (01/05/2026 to 01/05/2026)
-[OK] No missing reports for unit MHS.
-[INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (01/05/2026 to 01/05/2026)
-[RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MBB, skipping.
-[RUN] Processing unit: MBW (ADMINISTRATION MBW)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MBW, skipping.
-[RUN] Processing unit: MIW (ADMINISTRATION MIW)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MIW, skipping.
-[RUN] Processing unit: MSC (FINANCE MSC)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MSC, skipping.
-[INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (01/05/2026 to 01/05/2026)
-[RUN] Download round 2/4 for units: MBB, MBW, MIW, MSC
-[RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MBB, skipping.
-[RUN] Processing unit: MBW (ADMINISTRATION MBW)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MBW, skipping.
-[RUN] Processing unit: MIW (ADMINISTRATION MIW)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MIW, skipping.
-[RUN] Processing unit: MSC (FINANCE MSC)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MSC, skipping.
-[INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (01/05/2026 to 01/05/2026)
-[RUN] Download round 3/4 for units: MBB, MBW, MIW, MSC
-[RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MBB, skipping.
-[RUN] Processing unit: MBW (ADMINISTRATION MBW)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MBW, skipping.
-[RUN] Processing unit: MIW (ADMINISTRATION MIW)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MIW, skipping.
-[RUN] Processing unit: MSC (FINANCE MSC)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MSC, skipping.
-[INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (01/05/2026 to 01/05/2026)
-[RUN] Download round 4/4 for units: MBB, MBW, MIW, MSC
-[RUN] Processing unit: MBB (ADMINISTRATION MHW MBB)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MBB, skipping.
-[RUN] Processing unit: MBW (ADMINISTRATION MBW)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MBW, skipping.
-[RUN] Processing unit: MIW (ADMINISTRATION MIW)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MIW, skipping.
-[RUN] Processing unit: MSC (FINANCE MSC)
-[FAIL] No next page found on attempt 1, stopping.
-[FAIL] Could not select unit MSC, skipping.
-[INFO] Date-wise extraction for Patient_Payable_Date_Wise: 1 daily reports (01/05/2026 to 01/05/2026)
-[OK] Browser closed after all units processed
-[RUN] Triggering post-processing script...
-[RUN] Post-process convert/validate/move-to-dashboard (attempt 1/4)
-[RUN] Post-process convert/validate/move-to-dashboard (attempt 2/4)
-[RUN] Post-process convert/validate/move-to-dashboard (attempt 3/4)
-[RUN] Post-process convert/validate/move-to-dashboard (attempt 4/4)
+1. Prompt to paste in Claude Code on the server
+Copy-paste this exactly into Claude Code on the server:
 
-[OK] All units processed.
-Exit code: 0 
- 
-===== DONE ===== 
+
+The project is at D:\automation-project - Main\core.py
+
+Make these 3 fixes to core.py:
+
+FIX 1 â€” In the function that toggles Tools after a report download (around the block that clicks MainMenuLinksTools 3 times), the success path never calls driver.switch_to.default_content(). Add it right before the print("[OK] Tools toggled after report download") line.
+
+FIX 2 â€” In process_unit, the try block that clicks MainMenuSessionBarLocation starts with driver.switch_to.frame("eprmenu"). Add driver.switch_to.default_content() as the very first line inside that try block (before the frame switch).
+
+FIX 3 â€” In process_unit, between the try/except block that opens the unit selector and the for attempt in range(8) loop, add this wait:
+    try:
+        wait.until(EC.presence_of_element_located((By.XPATH, "//*[contains(text(),'Choose Logon Location')]")))
+    except:
+        pass
+
+FIX 4 â€” In get_driver(), after the options.add_argument lines, add:
+    _ext_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fix2_edge_extension")
+    if os.path.isdir(_ext_path):
+        options.add_argument(f"--load-extension={_ext_path}")
+
+After making all 4 fixes, show me the changed lines with line numbers so I can verify.
+fix all errors
