@@ -992,23 +992,26 @@ def process_unit(driver, wait, unit_code):
         except:
             driver.switch_to.default_content()
             print("[WARN] Could not open unit selector")
-            # Save screenshot so we can see what the browser actually shows
             try:
-                _shot = os.path.join(OUTPUT_DIR, f"debug_screenshot_{unit_code}.png")
+                _shot = os.path.join(os.getcwd(), f"debug_screenshot_{unit_code}.png")
                 driver.save_screenshot(_shot)
                 print(f"[DEBUG] Screenshot saved: {_shot}")
             except Exception as _e:
                 print(f"[DEBUG] Screenshot failed: {_e}")
 
         unit_clicked = False
+        print(f"[DEBUG] Looking for: location='{location}' | sec_group='{sec_group}' | hospital='{hospital}'")
 
         for attempt in range(4):
             try:
                 rows = driver.find_elements(By.TAG_NAME, "tr")
+                table_rows_found = []
                 for tr in rows:
                     tds = tr.find_elements(By.TAG_NAME, "td")
                     if len(tds) < 4:
                         continue
+                    row_vals = [tds[i].text.strip() for i in range(min(5, len(tds)))]
+                    table_rows_found.append(row_vals)
                     if (
                         tds[1].text.strip() == location
                         and tds[2].text.strip() == sec_group
@@ -1018,6 +1021,10 @@ def process_unit(driver, wait, unit_code):
                         unit_clicked = True
                         print(f"[OK] Selected unit {unit_code} on attempt {attempt+1}")
                         break
+                if attempt == 0 and not unit_clicked:
+                    print(f"[DEBUG] Table rows on page (showing up to 5):")
+                    for r in table_rows_found[:5]:
+                        print(f"  {r}")
 
                 if unit_clicked:
                     break
