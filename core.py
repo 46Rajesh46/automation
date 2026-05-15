@@ -992,6 +992,13 @@ def process_unit(driver, wait, unit_code):
         except:
             driver.switch_to.default_content()
             print("[WARN] Could not open unit selector")
+            # Save screenshot so we can see what the browser actually shows
+            try:
+                _shot = os.path.join(OUTPUT_DIR, f"debug_screenshot_{unit_code}.png")
+                driver.save_screenshot(_shot)
+                print(f"[DEBUG] Screenshot saved: {_shot}")
+            except Exception as _e:
+                print(f"[DEBUG] Screenshot failed: {_e}")
 
         unit_clicked = False
 
