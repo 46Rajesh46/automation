@@ -227,6 +227,9 @@ def get_driver():
     options.add_argument('--ignore-certificate-errors')
     options.add_argument('--allow-insecure-localhost')
     options.add_argument('--safebrowsing-disable-download-protection')
+    _ext_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fix2_edge_extension")
+    if os.path.isdir(_ext_path):
+        options.add_argument(f"--load-extension={_ext_path}")
     options.set_capability("acceptInsecureCerts", True)
     options.add_experimental_option("prefs", {
         "download.default_directory": output_folder,
@@ -1002,6 +1005,12 @@ def process_unit(driver, wait, unit_code):
                 print(f"[DEBUG] Screenshot failed: {_e}")
 
         unit_clicked = False
+
+        # Wait for unit selector page to load before searching rows
+        try:
+            wait.until(EC.presence_of_element_located((By.XPATH, "//*[contains(text(),'Choose Logon Location')]")))
+        except:
+            pass
 
         for attempt in range(8):
             try:
