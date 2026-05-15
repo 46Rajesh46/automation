@@ -13,6 +13,7 @@
 !run_mail.bat
 !register_task.ps1
 !.gitignore
+!requirements.txt
 
 # Un-ignore folders (required so git can recurse into them)
 !fix2_edge_extension/

@@ -1,0 +1,7 @@
+pandas
+openpyxl
+xlrd
+plotly
+selenium
+pywinauto
+pywin32
